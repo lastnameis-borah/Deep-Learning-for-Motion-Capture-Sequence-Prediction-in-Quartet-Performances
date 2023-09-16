@@ -6,14 +6,7 @@ RawData;
 RawDataMod.MarkerName = RawData.markerName;
 RawDataMod.Data = RawData.data;
 
-% plot(RawDataMod.Data(:,13),'r')
-% hold on
-% plot(RawDataMod.Data(:,14),'g')
-% plot(RawDataMod.Data(:,15),'b')
-
-
 n = RawData.nFrames; % Total frames
-
 
 %%%%%%%%%%%%% CELLO %%%%%%%%%%%%%%
 
@@ -169,9 +162,9 @@ violin_1 = mag_v1_b1;
 violin_1.Properties.VariableNames{'mag_v1_b1'} = 'Var1';
 
 % Average between three markers
-ave_cello = timeseries_gpt4(cello.mag_cello_b1, cello.mag_cello_b2, cello.mag_cello_b3);
-ave_viola = timeseries_gpt4(viola.mag_viola_b1, viola.mag_viola_b2, viola.mag_viola_b3);
-ave_violin_2 = timeseries_gpt4(violin_2.mag_v2_b1, violin_2.mag_v2_b2, violin_2.mag_v2_b3);
+ave_cello = magnitude(cello.mag_cello_b1, cello.mag_cello_b2, cello.mag_cello_b3);
+ave_viola = magnitude(viola.mag_viola_b1, viola.mag_viola_b2, viola.mag_viola_b3);
+ave_violin_2 = magnitude(violin_2.mag_v2_b1, violin_2.mag_v2_b2, violin_2.mag_v2_b3);
 ave_violin_1 = violin_1;
 
 
@@ -185,18 +178,7 @@ ave_viola = table(ave_viola');
 ave_violin_2(ave_violin_2 == 0) = NaN;
 ave_violin_2 = table(ave_violin_2');
 
-% ave_violin_1(ave_violin_1 == 0) = NaN;
-% ave_violin_1 = table(ave_violin_1');
-
-writetable(ave_cello, 'deadpan_cello_1.csv');
-writetable(ave_viola, 'deadpan_viola_1.csv');
-writetable(ave_violin_2, 'deadpan_v2_1.csv');
-writetable(ave_violin_1, 'deadpan_v1_1.csv');
-
-
-% Plot the graph
-% plot(ave_cello.Var1, 'r');
-% hold on
-% plot(ave_viola.Var1, 'g');
-% plot(ave_violin_2.Var1, 'b');
-% plot(ave_violin_1.mag_v1_b1, 'k');
+writetable(ave_cello, 'deadpan_cello_Rep1.csv');
+writetable(ave_viola, 'deadpan_viola_Rep1.csv');
+writetable(ave_violin_2, 'deadpan_v2_Rep1.csv');
+writetable(ave_violin_1, 'deadpan_v1_Rep1.csv');
