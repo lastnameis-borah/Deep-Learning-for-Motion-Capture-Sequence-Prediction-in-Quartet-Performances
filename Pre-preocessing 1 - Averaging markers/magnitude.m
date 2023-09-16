@@ -1,4 +1,4 @@
-function C = timeseries_gpt4(A, B, C)
+function C = magnitude(A, B, C)
 
     % Iterate through each element
     for i = 1:numel(A)
