@@ -6,7 +6,7 @@
 
 2. In the directory '`Pre-processing 1`', it uses the .mat files from the previously mentioned directory and outputs four csv files for all the four instruments. These csv files holds the averaged marker values.
 
-3. In
+3. Repeat step 2 until all the files from the '`MoCap Dataset`' directory is served.
 
 
 
