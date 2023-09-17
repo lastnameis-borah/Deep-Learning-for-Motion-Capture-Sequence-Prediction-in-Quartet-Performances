@@ -2,7 +2,7 @@
 > MSc. Dissertation project submitted to School of Computer Science, University of Birmingham. (2023)
 
 
-1. '`MoCap Dataset`' directory holds all the marked MoCap recordings with .mat file extension.
+1. '[`MoCap Dataset`](https://github.com/lastnameis-borah/MSc-Dissertation/tree/main/MoCap%20Dataset)' directory holds all the marked MoCap recordings with .mat file extension.
 
 2. In the directory '`Pre-processing 1`', use the .mat files from the previously mentioned directory and outputs four CSV files for all four instruments. These csv files hold the averaged marker values.
 
