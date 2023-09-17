@@ -1,5 +1,5 @@
 # A run through the repository...
-`MSc. Dissertation project submitted to School of Computer Science, University of Birmingham. (2023)`
+> MSc. Dissertation project submitted to School of Computer Science, University of Birmingham. (2023)
 
 
 1. '`MoCap Dataset`' directory holds all the marked MoCap recordings with .mat file extension.
@@ -26,7 +26,7 @@
 
 12. Step 11 marks the end of the proposed project.
 
-/n
-/n
-Author @ Anurag Borah
-/n 2023
+
+
+Author @ Anurag Borah <br>
+2023
