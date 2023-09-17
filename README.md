@@ -18,7 +18,7 @@
 
 8. Resulting CSVs will be input to the LSTM model.
 
-9. LSTM model is available in the [`Model_sequence.ipynb`](https://github.com/lastnameis-borah/MSc-Dissertation/blob/main/Model_sequence.ipynb) file.
+9. LSTM model is available in the [`Model_Sequence.ipynb`](https://github.com/lastnameis-borah/MSc-Dissertation/blob/main/Model_Sequence.ipynb) file.
 
 10. Step 9 will output the predicted quartet sequence.
 
