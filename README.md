@@ -1,5 +1,5 @@
 # How to run the code?
-~MSc. Dissertation project submitted to School of Computer Science, University of Birmingham. (2023)~
+`MSc. Dissertation project submitted to School of Computer Science, University of Birmingham. (2023)`
 
 
 1. 'MoCap Dataset' directory holds all the marked MoCap recordings with .mat file extension.
